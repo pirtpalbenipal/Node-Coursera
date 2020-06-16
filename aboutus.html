@@ -16,6 +16,31 @@
 </head>
 
 <body>
+     <nav class="navbar navbar-dark bg-primary navbar-expand-sm fixed-top"><!-- expand means toggle for es to sm screen and navbar-dark has a link with color of links in our nacbar-->
+        
+        <div class="container">
+            <a  class="navbar-brand mr-auto" href="#">Ristorante con Fusion</a>
+ 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBar">
+            <span class="navbar-toggler-icon"></span>
+           </button>
+            <div class="collapse navbar-collapse" id="NavBar">
+                
+            <ul class="navbar-nav mr-auto" >
+                <li class="nav-item "><a href="./index.html" class="nav-link"> Home</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link"> About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> Menu</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> Contact</a></li>
+                
+            </ul>
+        </div>
+        </div>
+        
+
+
+        
+    </nav>
+
 
     <header class="jumbotron">
         <div class="container">
@@ -33,6 +58,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <ol class="col-12 breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                    <li class="breadcrumb-item active"> About us</li>
+                    
+                </ol>
                <h3>About Us</h3>
                <hr>
             </div>
@@ -71,7 +101,7 @@
                 <div class="col-5 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>

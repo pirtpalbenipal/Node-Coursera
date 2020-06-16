@@ -1,7 +1,8 @@
 .row-header{
-    margin:0px auto;
-    padding:0px;
-}
+    margin: 0px auto;
+    padding: 0px;
+    
+    }
 
 .row-content {
     margin:0px auto;
@@ -27,18 +28,12 @@
     margin:0px;
     color:#0f0f0f;
 }
-.r1{
-	background-color:pink;
-}
-.r2
+body
 {
-	background-color: green;
+    padding: 50px,0px,0px,0px;I am writing this so that nab=vbar does not cover our rest of website,you have to remember it abotu nabar
+    z-index: 0;
+
 }
-.r3{
-	background-color: yellow;
-}
-.h
-{
-	background-color: red;
-	margin-bottom: 2px;
+.navbar-dark{
+    background-color: #512DAB;// you have to remove bg-primary to avoid overwrting
 }
