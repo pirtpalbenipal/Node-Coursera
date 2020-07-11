@@ -1,2 +1,10 @@
-1. model does not work in case you have applied tooltip tosame element
+1. You can use span or i tag for font awesome
+2. mail has not any bootstrap social icon.
+3. for youtube socail you have write btn-google unlike btn-youtube
+4. If you are applying cutoms css rules to navbar-dark ,then dont include bg-primary otherwise it will overwrite our applied styles
+
+
+5. model does not work in case you have applied tooltip tosame element
+6. npm run scss will automatticlly convert into css files with same name as of scss file i.e styles.scss---to styles.css
+7. lessc filename.less  newfilename.css
 
